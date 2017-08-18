@@ -1,6 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewTop"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_alignBottom="@+id/slideFrame"
+            android:layout_gravity="center"
+            android:layout_marginBottom="-8dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginTop="-4dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardBackgroundColor="@android:color/background_light"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:contentPaddingBottom="5dp">
+            
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SELECT A MOOD"
+                        android:paddingBottom="8dp"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="12dp"
+                        android:paddingTop="16dp"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/happyMood"
+                            android:layout_width="128dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/happy"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="#00000000"/>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/sadMood"
+                            android:layout_width="128dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/sad"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="#00000000"/>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/classicsMood"
+                            android:layout_width="128dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/classics"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="#00000000"/>
+                        
+                        
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/inspirationalMood"
+                            android:layout_width="128dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/inspirational"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="#0000000"/>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/romanticMood"
+                            android:layout_width="128dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/romantic"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="#00000000"/>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/trapMood"
+                            android:layout_width="128dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/trap"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="#00000000"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            
+            </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
