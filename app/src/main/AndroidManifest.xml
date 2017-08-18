@@ -22,6 +22,9 @@
         <activity android:name=".HomePage"
             android:theme="@style/AppTheme" />
 
+        <activity android:name=".MoodPage"
+            android:theme="@style/AppTheme" />
+
 
     </application>
 
