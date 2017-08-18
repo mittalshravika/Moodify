@@ -1,10 +1,13 @@
 package com.example.sm_06.moodify;
 
+import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.google.api.services.youtube.YouTube;
 
 /**
  * Created by HP on 19-08-2017.
@@ -27,7 +30,8 @@ public class MoodPage extends AppCompatActivity{
         happy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(MoodPage.this, PlayerActivity.class);
+                startActivity(i);
             }
         });
 
@@ -66,5 +70,9 @@ public class MoodPage extends AppCompatActivity{
             }
         });
 
+
+
     }
+
+
 }
