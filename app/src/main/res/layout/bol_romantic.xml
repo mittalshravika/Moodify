@@ -53,6 +53,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/br1t1"
@@ -107,6 +108,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/br2t2"
@@ -162,6 +164,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/br3t3"
@@ -217,6 +220,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/br4t4"
@@ -272,6 +276,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/br5t5"

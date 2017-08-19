@@ -53,6 +53,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Adhoore Tum Adhoore Hum *HD* Break Ke Baad"
@@ -107,6 +108,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Journey Song Full Audio | Piku | Amitabh Bachchan, Irrfan Khan, Deepika Padukone"
@@ -162,6 +164,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Zehnaseeb Lyric - Hasee Toh Phasee | Parineeti Chopra, Sidharth"
@@ -217,6 +220,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Aahista Aahista - Song | Bachna Ae Haseeno | Ranbir Kapoor | Minissha Lamba"
@@ -272,6 +276,7 @@
                     android:layout_weight="0.5">
 
                     <TextView
+                        android:paddingTop="16dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Subhanallah Yeh Jawaani Hai Deewani Full Video Song | Ranbir Kapoor, Deepika Padukone"

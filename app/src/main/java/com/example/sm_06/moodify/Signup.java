@@ -80,15 +80,6 @@ public class Signup extends AppCompatActivity {
                 }
             }
         });
-        FloatingActionButton fab1 = (FloatingActionButton) findViewById(R.id.singuphome);
-        fab1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                loadLogInView();
-            }
-        });
-
 
     }
 

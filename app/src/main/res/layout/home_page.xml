@@ -23,16 +23,26 @@
             android:layout_height="20dp" />
 
         <Button
+            android:id="@+id/buttonBolly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonBolly"
-            android:text="Bollywood"/>
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/button"
+            android:padding="8dp"
+            android:text="Bollywood"
+            android:textColor="@android:color/black" />
 
         <Button
+            android:id="@+id/buttonHolly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonHolly"
-            android:text="Hollywood"/>
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/button"
+            android:padding="8dp"
+            android:text="Hollywood"
+            android:textColor="@android:color/black" />
 
         <View
             android:layout_width="match_parent"
