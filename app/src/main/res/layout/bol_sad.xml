@@ -35,7 +35,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -47,7 +47,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -55,7 +55,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bs1t1"/>
+                        android:id="@+id/bs1t1"
+                        android:text="Main Tenu Samjhawan Ki | Rahat Fateh Ali Khan | Virsa"/>
 
                 </LinearLayout>
 
@@ -88,7 +89,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -100,7 +101,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -108,7 +109,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bs2t2"/>
+                        android:id="@+id/bs2t2"
+                        android:text="Agar Tum Saath Ho FULL AUDIO Song | Tamasha | Ranbir Kapoor, Deepika Padukone | T-Series"/>
 
                 </LinearLayout>
 
@@ -142,7 +144,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -154,7 +156,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -162,7 +164,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bs3t3"/>
+                        android:id="@+id/bs3t3"
+                        android:text="Hamdard Full Video Song | Ek Villain | Arijit Singh | Mithoon"/>
 
                 </LinearLayout>
 
@@ -196,7 +199,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -208,7 +211,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -216,7 +219,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bs4t4"/>
+                        android:id="@+id/bs4t4"
+                        android:text="Aaoge Jab Tum Full Song | Jab We Met | Kareena Kapoor, Shahid Kapoor"/>
 
                 </LinearLayout>
 
@@ -250,7 +254,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -262,7 +266,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -270,7 +274,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bs5t5"/>
+                        android:id="@+id/bs5t5"
+                        android:text="Nadaan Parindey Ghar Aaja (Full Song) Rockstar | Ranbir Kapoor"/>
 
                 </LinearLayout>
 
