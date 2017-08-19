@@ -35,7 +35,8 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -47,7 +48,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -55,7 +56,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bc1t1"/>
+                        android:id="@+id/bc1t1"
+                        android:text="Lag Jaa Gale - Sadhana, Lata Mangeshkar, Woh Kaun Thi Romantic Song"/>
 
                 </LinearLayout>
 
@@ -88,7 +90,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -100,7 +102,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -108,7 +110,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bc2t2"/>
+                        android:id="@+id/bc2t2"
+                        android:text="Ankhiyon Ke Jharokhon Se - Classic Romantic Song - Sachin and Ranjeeta - Old Hindi Songs"/>
 
                 </LinearLayout>
 
@@ -142,19 +145,20 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:id="@+id/bc3i3"/>
+                        android:id="@+id/bc3i3"
+                        />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -162,7 +166,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bc3t3"/>
+                        android:id="@+id/bc3t3"
+                        android:text="ajeeb dastan hai yeh"/>
 
                 </LinearLayout>
 
@@ -196,7 +201,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -208,7 +213,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -216,7 +221,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bc4t4"/>
+                        android:id="@+id/bc4t4"
+                        android:text="Chura Liya Hai Tumne Jo Dil Ko YADON KI BARAT 1973. HD"/>
 
                 </LinearLayout>
 
@@ -250,7 +256,7 @@
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5">
 
@@ -262,7 +268,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_weight="0.5">
@@ -270,7 +276,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bc5t5"/>
+                        android:id="@+id/bc5t5"
+                        android:text="Gulabi Aankhein Jo Teri - Rajesh Khanna Songs {HD} - The Train - Mohd Rafi"/>
 
                 </LinearLayout>
 
