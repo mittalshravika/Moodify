@@ -31,6 +31,45 @@
         <activity android:name=".PlayerActivity"
             android:theme="@style/AppTheme" />
 
+        <activity android:name=".CardViewActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".BolIClassicActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".BollInspirationalActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".BolRomanticActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".BolSadActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".BolTrapActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".HolHappyActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".HollClassicActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".HollInspirationalActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".HollTrapActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".HolRomanticActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".HolSadActivity"
+            android:theme="@style/AppTheme" />
+
+
+
+
 
     </application>
 

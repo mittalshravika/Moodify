@@ -6,6 +6,7 @@ package com.example.sm_06.moodify;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +20,7 @@ import com.google.android.youtube.player.YouTubePlayerView;
 
 public class PlayerActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
+    private String videoId = "";
     private MyPlayerStateChangeListener playerStateChangeListener;
     private MyPlaybackEventListener playbackEventListener;
 
@@ -31,20 +33,27 @@ public class PlayerActivity extends YouTubeBaseActivity implements YouTubePlayer
         super.onCreate(savedInstanceState);
         setContentView(R.layout.player_view);
 
+        Bundle extras = getIntent().getExtras();
+        if(extras!=null){
+            videoId = videoId.concat(extras.getString("videoId"));
+
+        }
+        Toast.makeText(this, videoId, Toast.LENGTH_SHORT).show();
+
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
         playerStateChangeListener = new MyPlayerStateChangeListener();
         playbackEventListener = new MyPlaybackEventListener();
 
-        final EditText seekToText = (EditText) findViewById(R.id.seek_to_text);
-        Button seekToButton = (Button) findViewById(R.id.seek_to_button);
-        seekToButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int skipToSecs = Integer.valueOf(seekToText.getText().toString());
-                player.seekToMillis(skipToSecs * 1000);
-            }
-        });
+//        final EditText seekToText = (EditText) findViewById(R.id.seek_to_text);
+//        Button seekToButton = (Button) findViewById(R.id.seek_to_button);
+//        seekToButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                int skipToSecs = Integer.valueOf(seekToText.getText().toString());
+//                player.seekToMillis(skipToSecs * 1000);
+//            }
+//        });
     }
 
     @Override
@@ -54,8 +63,10 @@ public class PlayerActivity extends YouTubeBaseActivity implements YouTubePlayer
         player.setPlaybackEventListener(playbackEventListener);
 
         if (!wasRestored) {
-            player.cueVideo("fhWaJi1Hsfo"); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+            player.cueVideo(videoId); // Plays https://www.youtube.com/watch?v=fhWaJi1Hsfo
+
         }
+
     }
 
     @Override

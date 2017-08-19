@@ -35,6 +35,7 @@ public class HomePage extends AppCompatActivity{
             public void onClick(View v) {
                 obj.choice = 1;
                 Intent i = new Intent(HomePage.this, MoodPage.class);
+                i.putExtra("choice", Integer.toString(obj.choice));
                 startActivity(i);
             }
         });
@@ -44,6 +45,7 @@ public class HomePage extends AppCompatActivity{
             public void onClick(View v) {
                 obj.choice = 2;
                 Intent i = new Intent(HomePage.this, MoodPage.class);
+                i.putExtra("choice", Integer.toString(obj.choice));
                 startActivity(i);
             }
         });

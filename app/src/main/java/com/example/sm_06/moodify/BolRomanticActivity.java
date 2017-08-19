@@ -5,40 +5,37 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
-import android.widget.TextView;
-
-import java.io.IOException;
 
 /**
  * Created by HP on 19-08-2017.
  */
 
-public class CardViewActivity extends AppCompatActivity{
+public class BolRomanticActivity extends AppCompatActivity {
 
-    private String[] bollHappy = {"MyHYCv7SzRE",
-            "oZ7PnR_ZKRE",
-            "WnU0lH6C0EA",
-            "Sj9P6mmfCL4",
-            "QYO6AlxiRE4"
+    private String[] bollRomantic = {"zFdi834FiZ4",
+            "xqsgnXWUA4M",
+            "TGpG56pg3UU",
+            "oyaudgo5_8Y",
+            "Ei1RDCs6fOw"
     };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.card_view);
+        setContentView(R.layout.bol_romantic);
 
 
-        CardView cd1 = (CardView) findViewById(R.id.bh1);
-        CardView cd2 = (CardView) findViewById(R.id.bh2);
-        CardView cd3 = (CardView) findViewById(R.id.bh3);
-        CardView cd4 = (CardView) findViewById(R.id.bh4);
-        CardView cd5 = (CardView) findViewById(R.id.bh5);
-
+        CardView cd1 = (CardView) findViewById(R.id.br1);
+        CardView cd2 = (CardView) findViewById(R.id.br2);
+        CardView cd3 = (CardView) findViewById(R.id.br3);
+        CardView cd4 = (CardView) findViewById(R.id.br4);
+        CardView cd5 = (CardView) findViewById(R.id.br5);
 
         cd1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CardViewActivity.this, PlayerActivity.class);
-                i.putExtra("videoId", bollHappy[0]);
+                Intent i = new Intent(BolRomanticActivity.this, PlayerActivity.class);
+                i.putExtra("videoId", bollRomantic[0]);
                 startActivity(i);
 
             }
@@ -47,8 +44,8 @@ public class CardViewActivity extends AppCompatActivity{
         cd2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CardViewActivity.this, PlayerActivity.class);
-                i.putExtra("videoId", bollHappy[1]);
+                Intent i = new Intent(BolRomanticActivity.this, PlayerActivity.class);
+                i.putExtra("videoId", bollRomantic[1]);
                 startActivity(i);
 
             }
@@ -57,8 +54,8 @@ public class CardViewActivity extends AppCompatActivity{
         cd3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CardViewActivity.this, PlayerActivity.class);
-                i.putExtra("videoId", bollHappy[2]);
+                Intent i = new Intent(BolRomanticActivity.this, PlayerActivity.class);
+                i.putExtra("videoId", bollRomantic[2]);
                 startActivity(i);
 
             }
@@ -67,8 +64,8 @@ public class CardViewActivity extends AppCompatActivity{
         cd4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CardViewActivity.this, PlayerActivity.class);
-                i.putExtra("videoId", bollHappy[3]);
+                Intent i = new Intent(BolRomanticActivity.this, PlayerActivity.class);
+                i.putExtra("videoId", bollRomantic[3]);
                 startActivity(i);
 
             }
@@ -77,11 +74,12 @@ public class CardViewActivity extends AppCompatActivity{
         cd5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(CardViewActivity.this, PlayerActivity.class);
-                i.putExtra("videoId", bollHappy[4]);
+                Intent i = new Intent(BolRomanticActivity.this, PlayerActivity.class);
+                i.putExtra("videoId", bollRomantic[4]);
                 startActivity(i);
 
             }
         });
+
     }
 }
